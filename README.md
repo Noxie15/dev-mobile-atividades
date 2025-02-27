@@ -1,3 +1,3 @@
-# dev-mobile-atividades
+# IESB Programação para Dispositivos Móveis
 
-#Local para as atividades da máteria de programação para dispositivos móveis.
+## Local para as atividades da máteria de programação para dispositivos móveis.
