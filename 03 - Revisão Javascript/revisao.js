@@ -62,3 +62,69 @@ frutas.forEach(fruta => console.log(fruta))
 
 frutas.pop()
 console.log(frutas)
+
+// Objetos
+let pessoa = {
+    nome: "Giovanne Dilly",
+    idade: 19,
+    peso: 70,
+    altura: 180
+}
+console.log(pessoa) // testando
+console.log(pessoa.nome)
+pessoa.idade = 20 //mudei o valor da idade para 20
+console.log(pessoa.idade)
+
+// desatribuição de objetos
+const {peso, altura} = pessoa
+console.log(peso)
+console.log(altura)
+
+// propagação de objetos
+const endereço = {
+    cidade: "Brasília",
+    uf:"DF"
+}
+
+const pessoaCompleto = {
+    ...pessoa,
+    ...endereço
+}
+
+console.log(pessoaCompleto)
+
+// Funções
+// Declaração
+function somar(numA, numB) {
+    const resultado = numA + numB
+    console.log(resultado)
+}
+
+// Uso
+somar(2,2)
+somar(3,3)
+somar(10,5)
+
+//função anonima
+const subtrair = function (numA, numB){
+    const resultado = numA - numB
+    console.log(resultado)
+}
+
+subtrair(4,2)
+
+// arrow function
+const multiplicar = (numA, numB) => numA * numB
+
+console.log(multiplicar(2,2))
+
+// Importando uma função de outro arquivo
+// No padrão do node sem projeto não funciona o import por modulos
+import {calcularIMC} from "./CalculadoraIMC"
+
+// Modo  de import padrão no node
+// const calculadoraIMC = require(./CalculadoraIMC)
+
+const res = calcularIMC(70, 180)
+
+console.log(res)
