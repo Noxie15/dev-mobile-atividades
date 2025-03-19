@@ -25,45 +25,7 @@ Plantei uma roseira
 O vento no cume bate
 A rosa no cume cheira</Text>
 
-<Text>Quando vem a chuva fina
-Salpicos no cume caem
-Formigas no cume entram
-Abelhas do cume saem</Text>
 
-<Text>Quando cai a chuva grossa
-A água do cume desce
-O barro do cume escorre
-O mato no cume cresce</Text>
-
-<Text>Então, quando cessa a chuva
-No cume volta a alegria
-Pois torna a brilhar de novo
-O Sol que no cume ardia</Text>
-
-<Text>No alto daquele cume
-Plantei uma roseira
-O vento no cume bate
-A rosa no cume cheira</Text>
-
-<Text>Quando vem a chuva fina
-Salpicos no cume caem
-Formigas no cume entram
-Abelhas do cume saem</Text>
-
-<Text>exQuando cai a chuva grossa
-A água do cume desce
-O barro do cume escorre
-O mato no cume cresce</Text>
-
-<Text>Então, quando cessa a chuva
-No cume volta a alegria
-Pois torna a brilhar de novo
-O Sol que no cume ardia</Text>
-
-<Text>Pois torna a brilhar de novo
-O Sol que no cume ardia
-Pois torna a brilhar de novo
-O Sol que no cume ardia</Text>
 
      <Button title='Alerta' onPress={alerta}></Button>
 
