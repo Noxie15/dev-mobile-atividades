@@ -1,9 +1,16 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Button, Image, ScrollView,} from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Button,
+  Image,
+  ScrollView,
+} from "react-native";
 
 export default function App() {
   function alerta() {
-    alert('"Só o Deus do Medo pode trazer o Outro Final." -Jaser Strach')
+    alert('"Só o Deus do Medo pode trazer o Outro Final." -Jaser Strach');
   }
   return (
     <ScrollView>
@@ -61,18 +68,20 @@ export default function App() {
             width: 200,
           }}
         />
-        <Text style={styles.textoCorrido}>"E eu me lembro de todas as vezes."
-             -Jaser Strach</Text>
-             <Image
+        <Text style={styles.textoCorrido}>
+          "E eu me lembro de todas as vezes." -Jaser Strach
+        </Text>
+        <Image
           source={require("./Imagens/imagem5.png")}
           style={{
             height: 200,
             width: 200,
           }}
         />
-        <Text style={styles.textoCorrido}>"Qual o maior medo de todos?" 
-          -Jaser Strach</Text>
-          <Button title='OUTRO FINAL' onPress={alerta}></Button>
+        <Text style={styles.textoCorrido}>
+          "Qual o maior medo de todos?" -Jaser Strach
+        </Text>
+        <Button title="OUTRO FINAL" onPress={alerta}></Button>
         <StatusBar style="auto" />
       </View>
     </ScrollView>
@@ -97,6 +106,6 @@ const styles = StyleSheet.create({
     color: "#3e4a3d",
     fontSize: 20,
     fontWeight: 400,
-    fontStyle: 'italic'
+    fontStyle: "italic",
   },
 });
